@@ -10,4 +10,4 @@ spec:
     - protocol: TCP
       port: 80       # internal cluster port
       targetPort: 80 # container port
-  type: ClusterIP   # options: ClusterIP | NodePort | LoadBalancer
+  type: ClusterIP   # ClusterIP, NodePort, or LoadBalancer

@@ -1,2 +1,4 @@
 resources:
-  - deployment.yaml
+- deployment.yaml
+- service.yaml
+namespace: default
